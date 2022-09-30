@@ -1,0 +1,21 @@
+app:
+mongodb:
+  url: # mongo connection string
+redis:
+  host: # redis host
+  port: # redis port
+  db: # redis db
+  password: # redis password
+grpc:
+  server: 
+    host: # grpc host
+    port: # grpc port
+  client:
+    user: # ex. localhost:8081
+jwt:
+  access:
+    secret: # secret for access token 
+    expire: # expire for access token, duration
+  refresh:
+    secret: # secret for refresh token
+    expire: # expire for refresh token, duration
